@@ -97,7 +97,7 @@ const DonationListScreen = () => {
       title={item.name}
       description={item.description}
       onPress={() => {
-        nv;
+        console.log("Donation item pressed:", item.name);
       }}
     />
   );

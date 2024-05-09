@@ -103,9 +103,10 @@ const ProfilePage = () => {
     <View
       style={{
         flex: 1,
-        padding: 20,
+        padding: 10,
         paddingTop: 60,
         alignItems: "center",
+        width: "100%",
       }}
     >
       <ScrollView alwaysBounceVertical={false}>
@@ -113,7 +114,7 @@ const ProfilePage = () => {
           <View
             style={{
               height: 280,
-              width: "100%",
+              minWidth: "100%",
               borderWidth: 1,
               borderRadius: 10,
               alignItems: "center",

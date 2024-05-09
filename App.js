@@ -6,8 +6,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import SignUpScreen from "./App/SignUpScreen";
 import HomeScreenStack from "./App/HomeScreenStack";
 import CreateDonationPage from "./App/HomeStackScreens/CreateDonationPAge";
-import MapNavigationScreen from "./App/HomeStackScreens/MapNavigationScreen";
-import NotificationAlertScreen from "./App/HomeStackScreens/NotificationAlertScreen";
+import MapNavigationScreen from "./App/HomeStackScreens/HomeScreenComponents/MapNavigationScreen";
+import NotificationAlertScreen from "./App/HomeStackScreens/HomeScreenComponents/NotificationAlertScreen";
 
 const stack = createNativeStackNavigator();
 
